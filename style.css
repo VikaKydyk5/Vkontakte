@@ -1,0 +1,1185 @@
+body{
+    width: 1400px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(img/background.png);
+    width: 1400px;
+    height: 70px;
+    background-color: #4d76a3;
+    margin-left: 60px;
+}
+
+.icon-vk{
+    background-image: url(img/%D0%A1%D0%BB%D0%BE%D0%B9_27_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png);
+    width: 37px;
+    height: 21px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+.search-vk{
+    background-image: url(img/place_for_search.png);
+    width: 129px;
+    height: 21px;
+    background-color: #375e88;
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    
+}
+
+.search-vk p{
+    color: #c3d6ed;
+    font-family: "Myriad Pro - It";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icon-search{
+    background-image: url(img/Search.png);
+    width: 9px;
+    height: 10px;
+    margin-top: -25px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+.menu{
+    margin: 0 220px;
+    position: relative;
+    top: 23px;
+    left: 35px;
+    word-spacing: 30px;
+}
+
+.menu .people{
+    width: 44px;
+    height: 15px;
+    color: #375e88;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.menu .games{
+    width: 45px;
+    height: 12px;
+    color: #375e88;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+ 
+.menu .music{
+    width: 39px;
+    height: 11px;
+    color: #375e88;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.menu .help{
+    width: 30px;
+    height: 15px;
+    color: #375e88;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.message{
+    background-image: url(img/New_message.png);
+    width: 24px;
+    height: 13px;
+    margin-left: 1040px;
+    margin-top: 10px;
+}
+
+.post{
+    background-image: url(img/New_post.png);
+    width: 22px;
+    height: 14px;
+    margin-left: 1080px;
+    margin-top: -12px;
+}
+
+.remin{
+    background-image: url(img/Reminders.png);
+    width: 12px;
+    height: 13px;
+    margin-left: 1120px;
+    margin-top: -14px;
+}
+
+.photo{
+    background-image: url(img/Photo.png);
+    width: 32px;
+    height: 32px;
+    margin-left: 1160px;
+    margin-top: -25px;
+}
+
+.date .name{
+    width: 160px;
+    height: 16px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: -25px;
+    margin-left: 1210px;
+}
+
+.main{
+    background-image: url(img/Background1.png);
+    width: 200px;
+    height: 830px;
+    background-color: #375e88;
+    margin-top: 28px;
+}
+
+.main1{
+    background-image: url(img/background2.png);
+    width: 270px;
+    height: 800px;
+    background-color: #ffffff;
+    margin-top: -830px;
+    margin-left: 200px;
+}
+
+.main2{
+    background-image: url(img/Background3.png);
+    width: 930px;
+    height: 200px;
+    margin-top: -828px;
+    margin-left: 470px;
+}
+
+.main3{
+    background-image: url(img/Background4.png);
+    width: 930px;
+    height: 620px;
+    margin-left: 470px;
+}
+
+.shadow{
+    background-image: url(img/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA_15_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png);
+    width: 930px;
+    height: 68px;
+    background-image: linear-gradient(to top, #183858 10%, rgba(26, 61, 97, 0) 100%);
+    opacity: 0.6;
+    position: absolute;
+    top: 205px;
+}
+
+.shadow p{
+    width: 387px;
+    height: 15px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 30px;
+    line-height: 32px;
+}
+
+.man{
+    background-image: url(img/user.png);
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.friends{
+    width: 48px;
+    height: 12px;
+    color: #c3d6ed;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;  
+    position: absolute;
+    top: 100px;
+    left: 130px;
+}
+
+.foto{
+    background-image: url(img/Photos.png);
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+}
+
+.photos{
+    width: 46px;
+    height: 12px;
+    color: #c3d6ed;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    position: absolute;
+    top: 130px;
+    left: 130px;
+}
+
+.video{
+    background-image: url(img/Video.png);
+    width: 13px;
+    height: 12px;
+    position: absolute;
+    top: 160px;
+    left: 101px;
+}
+
+.videos{
+    width: 45px;
+    height: 12px;
+    color: #c3d6ed;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    position: absolute;
+    top: 160px;
+    left: 130px;
+}
+
+.music1{
+    background-image: url(img/Music.png);
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+}
+
+.musics{
+    width: 38px;
+    height: 11px;
+    color: #c3d6ed;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; 
+    position: absolute;
+    top: 190px;
+    left: 130px;
+}
+
+.mes{
+    background-image: url(img/Messages.png);
+    width: 14px;
+    height: 11px;
+    position: absolute;
+    top: 223px;
+    left: 100px;
+}
+
+.messages{
+    width: 68px;
+    height: 15px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    position: absolute;
+    top: 220px;
+    left: 130px;
+}
+
+.bg{
+    width: 17px;
+    height: 17px;
+    background-color: #4d76a3;
+    position: absolute;
+    top: 223px;
+    left: 240px;
+}
+
+.group{
+    background-image: url(img/Groups.png);
+    width: 14px;
+    height: 10px;
+    position: absolute;
+    top: 255px;
+    left: 100px;
+}
+
+.groups{
+    width: 48px;
+    height: 15px;
+    color: #c3d6ed;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    position: absolute;
+    top: 250px;
+    left: 130px;
+}
+
+.new{
+    background-image: url(img/News.png);
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 285px;
+    left: 100px;
+}
+
+.news{
+    width: 36px;
+    height: 11px;
+    color: #c3d6ed;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    position: absolute;
+    top: 283px;
+    left: 130px;
+}
+
+.feed{
+    background-image: url(img/Feedback.png);
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    top: 315px;
+    left: 100px;
+}
+
+.feedback{
+    width: 64px;
+    height: 12px;
+    color: #c3d6ed;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    position: absolute;
+    top: 315px;
+    left: 130px;
+}
+
+.game{
+    background-image: url(img/Games.png);
+    width: 14px;
+    height: 10px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+
+.game1{
+    width: 45px;
+    height: 12px;
+    color: #c3d6ed;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;   
+    position: absolute;
+    top: 347px;
+    left: 130px;
+}
+
+.setting{
+    background-image: url(img/Settings.png);
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 380px;
+    left: 100px;
+}
+
+.settings{
+    width: 54px;
+    height: 16px;
+    color: #c3d6ed;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; 
+    position: absolute;
+    top: 380px;
+    left: 130px;
+}
+
+.main1 .convers{
+    width: 101px;
+    height: 13px;
+    color: #4d76a3;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 25px 26px;
+}
+
+.main1 .friend{
+    width: 48px;
+    height: 13px;
+    color: #b4b9bc;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: -38px;
+    margin-left: 145px;
+}
+
+.main1 .action{
+    width: 25px;
+    height: 6px;
+    background-image: url(img/Message_actions.png);
+    margin-top: -20px;
+    margin-left: 220px;
+}
+
+.main1 hr{
+    width: 260px;
+    margin-top: 30px;
+    color: #b4b9bc;
+}
+
+.find-friend{
+    width: 100px;
+    height: 13px;
+    color: #cacaca;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 26px;
+    position: absolute;
+    top: 150px;
+}
+
+.find-search{
+    width: 9px;
+    height: 10px;
+    position: relative;
+    top: 10px;
+    left: 236px;
+    background-image: url(img/Search.png);
+}
+
+.new-mes{
+    background-image: url(img/New_Message1.png);
+    width: 270px;
+    height: 73px;
+    background-color: #fafafa;
+    margin-top: 30px;
+    border-top: 1px solid  #b4b9bc;
+    border-bottom: 1px solid  #b4b9bc;
+}
+
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5,
+.photo6,
+.photo7,
+.photo8,
+.photo9{
+    background-image: url(img/%D1%84%D0%BE%D1%82%D0%BE.png);
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.konst{
+    width: 66px;
+    height: 12px;
+    color: #4d76a3;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    top: -30px;
+    left: 65px;
+}
+
+.course{
+    width: 60px;
+    height: 10px;
+    color: #585858;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    position: relative;
+    top: -38px;
+    left: 65px;
+}
+
+.number{
+    width: 20px;
+    height: 15px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    background-color: crimson;
+    position: relative;
+    top: -80px;
+    left: 190px;
+}
+
+.minute{
+    width: 35px;
+    height: 9px;
+    color: #b4b9bc;
+    font-family: "Myriad Pro - It";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    top: -108px;
+    left: 220px;
+}
+
+.mes1,
+.mes2,
+.mes3,
+.mes4,
+.mes5,
+.mes6,
+.mes7,
+.mes8{
+    width: 270px;
+    height: 73px;
+    border-bottom: 1px solid  #b4b9bc;
+}
+
+.photo2{
+    background-image: url(img/photo2.png);
+}
+
+.ekaterina,
+.txt2,
+.andrey,
+.anna,
+.evgeniy,
+.aleks,
+.vania,
+.vova{
+    width: 66px;
+    height: 12px;
+    color: #4d76a3;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    top: -30px;
+    left: 65px;
+}
+
+.txt,
+.staff,
+.txt3,
+.txt4,
+.txt5,
+.txt6,
+.txt7,
+.txt8,
+.txt9{
+    width: 115px;
+    height: 10px;
+    color: #585858;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    position: relative;
+    top: -38px;
+    left: 65px;
+}
+
+.minute1,
+.minute2,
+.minute3,
+.minute4,
+.minute5,
+.minute6,
+.minute7,
+.minute8,
+.minute9{
+    width: 35px;
+    height: 9px;
+    color: #b4b9bc;
+    font-family: "Myriad Pro - It";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    top: -80px;
+    left: 220px;
+}
+
+.photo3{
+    background-image: url(img/Photo3.png);
+}
+
+.txt2{
+    width: 100px;
+}
+
+.photo4{
+    background-image: url(img/Photo4.png);
+}
+
+.andrey{
+    width: 150px;
+}
+
+.txt3{
+    width: 150px;
+}
+
+.photo5{
+    background-image: url(img/photo5.png);
+}
+
+.anna{
+    width: 100px;
+}
+
+.photo6{
+    background-image: url(img/photo6.png);
+}
+
+.evgeniy{
+    width: 100px;
+}
+
+.photo7{
+    background-image: url(img/photo7.png);
+}
+
+.aleks{
+    width: 100px;
+}
+
+.photo8{
+    background-image: url(img/photo8.png);
+}
+
+.txt7{
+    width: 150px;
+}
+
+.vova{
+    width: 100px;
+}
+
+.photo9{
+    background-image: url(img/%D0%A1%D0%BB%D0%BE%D0%B9_11.png);
+}
+
+.photo10{
+    width: 32px;
+    height: 32px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-image: url(img/photo10.png);
+    position: relative;
+    top: 19px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+.photo11{
+    width: 32px;
+    height: 32px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-image: url(img/photo11.png);
+    position: relative;
+    top: -17px;
+    left: 45px;
+     border-radius: 50%;
+}
+
+.photo12{
+    width: 32px;
+    height: 32px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-image: url(img/photo12.png);
+    position: relative;
+    top: -53px;
+    left: 70px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.photo13{
+    width: 32px;
+    height: 32px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-image: url(img/photo13.png);
+    position: relative;
+    top: -94px;
+    left: 95px;
+    border-radius: 50%;
+}
+
+.photo14{
+    width: 32px;
+    height: 32px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-image: url(img/photo14.png);
+    position: relative;
+    top: -130px;
+    left: 125px;
+    border-radius: 50%;
+}
+
+.photo15{
+    width: 32px;
+    height: 32px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-image: url(img/photo15.png);
+    position: relative;
+    top: -167px;
+    left: 150px;
+    border-radius: 50%;
+}
+
+.photo15 .txt9{
+    width: 27px;
+    height: 9px;
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    position: absolute;
+    top: -5px;
+    left: 4px;
+}
+
+.add{
+    background-image: url(img/Add_to_conversation.png);
+    width: 16px;
+    height: 11px;
+    opacity: 0.9;
+    position: absolute;
+    left: 680px;
+    top: 5px;
+}
+
+.videochat{
+    background-image: url(img/Videochat.png);
+    width: 16px;
+    height: 10px;
+    opacity: 0.9;
+    position: absolute;
+    left: 710px;
+    top: 5px;
+}
+
+.setting-add{
+    background-image: url(img/Conversation_settings.png);
+    width: 12px;
+    height: 12px;
+    opacity: 0.9;
+    position: absolute;
+    left: 740px;
+    top: 5px;
+}
+
+
+.man1,
+.man2,
+.man3{
+    background-image: url(img/Photo20.png);
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+.chat,
+.chat1,
+.chat2{
+    background-image: url(img/Chat.png);
+    width: 120px;
+    height: 55px;
+    background-color: #ffffff;
+    position: relative;
+    top: -25px;
+    left: 70px;
+}
+
+.txt10,
+.txt11,
+.txt12,
+.txt13{
+    width: 81px;
+    height: 14px;
+    color: #585858;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px; 
+    text-align: center;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.man2{
+    background-image: url(img/Photo21.png);
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.chat1{
+    width: 110px;
+    position: relative;
+    top: -35px;
+    left: 70px;
+}
+
+.man3{
+    background-image: url(img/photo23.png);
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.chat2{
+    width: 230px;
+    position: relative;
+    top: -45px;
+    left: 70px;
+}
+
+.txt12{
+    width: 190px;
+}
+
+.bg-33{
+    width: 930px;
+    height: 77px;
+    background-image: url(img/background33.png);
+    position: relative;
+    top: -5px;
+}
+
+.place{
+    width: 838px;
+    height: 37px;
+    background-image: url(img/place_to_write.png);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.txt13{
+    width: 75px;
+    height: 11px;
+    color: #d1d1d1;
+    font-family: "Myriad Pro - It";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    position: absolute;
+    top: -3px;
+}
+
+.btn{
+    background-image: url(img/button.png);
+    width: 101px;
+    height: 37px;
+    background-color: #4d76a3;
+    position: absolute;
+    top: -1px;
+    left: 750px;
+}
+
+.send{
+    width: 31px;
+    height: 11px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    position: absolute;
+    top: -4px;
+    cursor: pointer;
+    left: 35px;
+}
+
+.photo40{
+    background-image: url(img/photo40.png);
+    width: 32px;
+    height: 32px;
+    margin-left: 865px;
+    margin-top: -15px;
+}
+
+.smiles{
+    background-image: url(img/smiles.png);
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 10px;
+    left: 720px;
+}
+
+.photo50{
+    background-image: url(img/photo50.png);
+    width: 18px;
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    left: 690px;
+}
+
+.photo51{
+    background-image: url(img/photo51.png);
+    width: 13px;
+    height: 16px;
+    position: absolute;
+    top: 10px;
+    left: 660px;
+}
+
+.man4{
+    background-image: url(img/photo40.png);
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 80px;
+    float: right;
+    left: -15px;
+}
+
+.chat3{
+    background-image: url(img/chat_copy.png);
+    width: 790px;
+    height: 259px;
+    background-color: #ffffff;
+    position: relative;
+    left: 70px;
+    top: -25px;
+}
+
+.txt14{
+    width: 729px;
+    height: 35px;
+    color: #585858;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+}
+
+.medv{
+    background-image: url(img/1.png);
+    width: 133px;
+    height: 133px;
+    background-color: rgba(0, 0, 0, 0.3); 
+    position: absolute;
+    top: 80px;
+    left: 25px;
+}
+
+.txt17,
+.txt22,
+.txt23,
+.txt24{
+    width: 48px;
+    height: 26px;
+    color: #4d76a3;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+}
+
+.download{
+    background-image: url(img/Download.png);
+    width: 52px;
+    height: 40px;
+    opacity: 0.5; 
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.txt18{
+    width: 41px;
+    height: 9px;
+    color: #d8d8d8;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px; 
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.txt19,
+.txt25,
+.txt26,
+.txt27{
+    width: 25px;
+    height: 9px;
+    color: red;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 51.47px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45px;
+    left: 60px;
+}
+
+.flower,
+.forest,
+.sea,
+.tree{
+    background-image: url(img/file.png);
+    width: 133px;
+    height: 133px;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+
+.txt20{
+    width: 48px;
+    height: 26px;
+    color: #4d76a3;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    position: absolute;
+    top: 210px;
+    left: 220px;
+}
+
+.bg99{
+    width: 25px;
+    height: 9px;
+    color: red;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 51.47px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 98px;
+    left: 110px;
+}
+
+.forest{
+    background-image: url(img/file1.png);
+    position: absolute;
+    left: 315px;
+}
+
+.sea{
+    background-image: url(img/file2.png);
+    position: absolute;
+    left: 460px;
+}
+
+.tree{
+    background-image: url(img/file4.png);
+    position: absolute;
+    left: 605px;
+}
+
+.txt23{
+    width: 70px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+
+.txt24{
+    width: 70px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+
+.txt25,
+.txt26, 
+.txt27{
+    position: absolute;
+    top: 85px;
+    left: 100px;
+    color: red;
+}
+
+.minut,
+.minut1,
+.minut2{
+    width: 40px;
+    height: 9px;
+    color: #b4b9bc;
+    font-family: "Myriad Pro - It";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    position: absolute;
+    top: 10px;
+    left: 800px;
+}
+
+.minut3{
+    width: 40px;
+    height: 9px;
+    color: #b4b9bc;
+    font-family: "Myriad Pro - It";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    float: left;
+    position: relative;
+    top: 85px;
+    left: 20px;
+}
